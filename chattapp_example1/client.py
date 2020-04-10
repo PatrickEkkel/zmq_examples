@@ -52,11 +52,7 @@ class Client:
 #    socket.connect ("tcp://localhost:%s" % port1)
 
 client = Client(port)
-
 client.connect()
-
-client.join_channel('patrick','mychannel')
-client.send_message('patrick','mychannel','even kijken of het werkt')
 
 nickname = input("Nickname?")
 channel_name = None
